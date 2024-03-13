@@ -4,7 +4,7 @@ A simple chat interface built with SvelteKit and Tailwind CSS. Simulate conversa
 
 ## Demo
 
-SvelteKit Chat App live: [http://sveltekit-chat.connection-tribe.net/](http://sveltekit-chat.connection-tribe.net/)
+SvelteKit Chat App live: [http://svelte-chat.connection-tribe.net/](http://svelte-chat.connection-tribe.net/)
 
 ## Getting Started
 
