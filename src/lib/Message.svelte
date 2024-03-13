@@ -2,7 +2,7 @@
 	import type { MessageType } from '../types/chatTypes';
 
 	export let message: MessageType;
-	export let avatarUrl: string; // Accepting avatar URL as a prop
+	export let avatarUrl: string;
 	export let isUserMessage: boolean;
 </script>
 

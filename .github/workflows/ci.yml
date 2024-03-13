@@ -51,4 +51,4 @@ jobs:
             docker pull dayrim/sveltekit-chat:latest
             docker stop sveltekit-chat || true
             docker rm sveltekit-chat || true
-            docker run -d --name sveltekit-chat -p 3000:3000 dayrim/sveltekit-chat:latest
+            docker run -d --name sveltekit-chat -p 3458:3000 dayrim/sveltekit-chat:latest
