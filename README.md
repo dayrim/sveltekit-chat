@@ -18,7 +18,7 @@ Clone the repository and navigate to the project directory:
 
 ```bash
 git clone https://github.com/dayrim/sveltekit-chat.git
-cd sveltekit-chat-app
+cd sveltekit-chat
 ```
 
 ### Install dependencies:

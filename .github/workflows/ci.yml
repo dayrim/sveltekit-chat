@@ -3,7 +3,6 @@ name: CI
 on:
   push:
     branches: ['main']
-
 jobs:
   build-and-push:
     name: Build and Push Docker Image
@@ -47,6 +46,7 @@ jobs:
           host: ${{ secrets.REMOTE_SERVER_IP }}
           username: ${{ secrets.REMOTE_SERVER_USER }}
           key: ${{ secrets.REMOTE_SSH_KEY }}
+          passphrase: ${{ secrets.REMOTE_SSH_PASSPHRASE }}
           script: |
             docker pull dayrim/sveltekit-chat:latest
             docker stop sveltekit-chat || true
